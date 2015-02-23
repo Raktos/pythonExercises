@@ -19,7 +19,7 @@ def is_vowel(char):
     return False
 
 def is_punctuation(char):
-    punctuation = ['!', ',', '.', ';', ':', ' ']
+    punctuation = ['!', ',', '.', ';', ':', ' ', '?']
 
     for p in punctuation:
         if char == p:
